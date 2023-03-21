@@ -1,0 +1,23 @@
+CREATE TABLE coffee_shop (id INTEGER, item TEXT, popularity INTEGER, difficulty INTEGER, price INTEGER);
+INSERT INTO coffee_shop VALUES (1, "coffee", 8, 3, 2.50);
+INSERT INTO coffee_shop VALUES (2, "americano", 7, 3, 3);
+INSERT INTO coffee_shop VALUES (3, "latte", 9, 5, 3.50);
+INSERT INTO coffee_shop VALUES (4, "cappuccino", 9, 6, 3.50);
+INSERT INTO coffee_shop VALUES (5, "espresso", 8, 3, 2);
+INSERT INTO coffee_shop VALUES (6, "macchiato", 6, 3, 2);
+INSERT INTO coffee_shop VALUES (7, "mocha", 7, 4, 3.50);
+INSERT INTO coffee_shop VALUES (8, "red eye", 8, 3, 3);
+INSERT INTO coffee_shop VALUES (9, "flat white", 9, 5, 3.50);
+INSERT INTO coffee_shop VALUES (10, "irish", 6, 6, 4);
+INSERT INTO coffee_shop VALUES (11, "ristretto", 4, 4, 2.50);
+INSERT INTO coffee_shop VALUES (12, "doppio", 7, 3, 3);
+INSERT INTO coffee_shop VALUES (13, "iced", 8, 3, 3.50);
+INSERT INTO coffee_shop VALUES (14, "croissant", 7, 8, 3);
+INSERT INTO coffee_shop VALUES (15, "banana muffin", 8, 6, 3.50);
+
+SELECT item, price FROM coffee_shop ORDER BY price;
+SELECT AVG(price) FROM coffee_shop 
+
+
+/** In this project I created a table with some data about a coffee shop and its items. The code here shows all the data and how I displayed some 
+statistics about the shop. **/
